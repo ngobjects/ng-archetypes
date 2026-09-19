@@ -5,7 +5,7 @@
 
 	<groupId>is.rebbi</groupId>
 	<artifactId>ng-archetypes</artifactId>
-	<version>0.1.1-SNAPSHOT</version>
+	<version>0.1.2-SNAPSHOT</version>
 	<packaging>maven-archetype</packaging>
 
 	<build>
