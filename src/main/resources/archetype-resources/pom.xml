@@ -5,6 +5,9 @@
 	<version>${version}</version>
 	<name>${artifactId}</name>
 	<packaging>woapplication</packaging>
+	<properties>
+		<ng.version>0.1.4</ng.version>
+	</properties>
 	<build>
 		<finalName>${project.artifactId}</finalName>
 		<plugins>
@@ -28,17 +31,17 @@
 		<dependency>
 			<groupId>is.rebbi.ng</groupId>
 			<artifactId>ng-appserver</artifactId>
-			<version>0.1.3</version>
+			<version>${ng.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>is.rebbi.ng</groupId>
 			<artifactId>ng-adaptor-jetty</artifactId>
-			<version>0.1.3</version>
+			<version>${ng.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>is.rebbi.ng</groupId>
 			<artifactId>ng-control</artifactId>
-			<version>0.1.3</version>
+			<version>${ng.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
