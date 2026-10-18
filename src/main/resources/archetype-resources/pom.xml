@@ -6,7 +6,7 @@
 	<name>${artifactId}</name>
 	<packaging>woapplication</packaging>
 	<properties>
-		<ng.version>0.1.5</ng.version>
+		<ng.version>0.1.6</ng.version>
 	</properties>
 	<build>
 		<finalName>${project.artifactId}</finalName>
